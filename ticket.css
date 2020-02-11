@@ -1,0 +1,84 @@
+/* :default */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*              navbar          */
+
+.navbar {
+    display: grid;
+    grid-template-columns:  repeat(7,minmax(60px,1fr)); 
+    white-space: nowrap;
+  width: 100%;
+  background-color: rgba(23, 35, 33, 0.1);
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center; 
+}
+
+.navbar:hover {
+    background-color: #555;
+}
+
+.navbar a:hover {
+  background-color: #000;
+  color: orangered;
+}
+
+.navbar a.active:hover {
+  background-color: #4CAF50;
+}
+
+/* dropdown button navbar */
+
+.dropdown-button-navbar{
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+}
+
+.dropdown-button-navbar:hover {
+    background-color: #000;
+  color: orangered;
+}
+
+.dropdown-menu-navbar {
+    background-color: hsl(220, 10%, 40%);
+    width: 100%;
+}
+
+/* In cart notification */
+
+.notification {
+  color: white;
+  position: relative;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: 5px;
+  right: 45px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}

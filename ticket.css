@@ -348,7 +348,7 @@ button:hover{
   }
 }
 
-/* parallax */
+/* parallax-background-images */
 .parallax  {
     background-image: url("https://www-tc.pbs.org/wgbh/masterpiece/wp-content/uploads/2016/12/sherlock_S4_season_icon.jpg");
     height: 70vh;
@@ -394,13 +394,13 @@ button:hover{
     background-size: cover;
 }
 
-.parallax7 {
-    background-image: url("https://static01.nyt.com/images/2019/12/06/books/06critics-list1/06critics-list1-superJumbo.jpg");
-    height: 70vh;
+.parallax5 {
+    background-image: url("https://assets.teenvogue.com/photos/57645e17dd80adbc7ec3f9d8/master/w_3750,h_2500,c_limit/classic-lit-books-00.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 70vh;
 }
 
 .parallax6 {
@@ -411,12 +411,102 @@ button:hover{
     background-size: cover;
     height: 70vh;
 }
-
-.parallax5 {
-    background-image: url("https://assets.teenvogue.com/photos/57645e17dd80adbc7ec3f9d8/master/w_3750,h_2500,c_limit/classic-lit-books-00.jpg");
+.parallax7 {
+    background-image: url("https://static01.nyt.com/images/2019/12/06/books/06critics-list1/06critics-list1-superJumbo.jpg");
+    height: 70vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+}
+
+/*          footer             */
+
+footer {
+    height: 40vh;
+    background-color: hsla(220, 10%, 12%);
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.social-link {
+  padding: 20px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 5px;
+}
+
+.social-link:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.footer-links a {
+    color: wheat;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.company {
+    font-weight: bolder;
+    color: #888;
+    text-transform: uppercase;
+    padding-right:10px;
 }

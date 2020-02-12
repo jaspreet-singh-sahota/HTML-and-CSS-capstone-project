@@ -83,13 +83,7 @@ body {
   color: white;
 }
 
-/*        slideshow            */
-
-.slideshow-img {
-    height: 100vh;
-}
-
- /* horizontal scrollbar */
+/* horizontal scrollbar */
 
 .horizontal-scroll {
     background: hsla(220, 10%, 12%);
@@ -97,13 +91,17 @@ body {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    padding: 30px 100PX;
+    padding: 30px 10px;
 }
 
+.slideshow-img {
+    height: 100vh;
+}
 ::-webkit-scrollbar {
   width: 4px;
-  height: 2px;
+  height: 4px;
   border: 1px solid #d5d5d5;
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar-track {
@@ -166,6 +164,7 @@ body {
     perspective: 600px;
     text-align: center;
     font-size: 20px;
+        margin: 0 10px;
 }
 
 .card:hover{
@@ -347,4 +346,41 @@ button:hover{
   body{
     transform: scale(.67);
   }
+}
+
+/* parallax */
+.parallax  {
+    background-image: url("https://quotefancy.com/media/wallpaper/3840x2160/6361197-George-R-R-Martin-Quote-A-reader-lives-a-thousand-lives-before-he.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2  {
+    background-image: url("http://wallpapers4screen.com/Uploads/31-1-2016/26622/girl-the-laptop-book-patrol-open-book.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url("https://imgix.bustle.com/uploads/image/2019/6/18/4b562803-0149-4649-a4ba-c391565c83e8-amhed.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("https://i.pinimg.com/originals/08/83/88/0883888c750d96b260d14ef32b2cde84.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

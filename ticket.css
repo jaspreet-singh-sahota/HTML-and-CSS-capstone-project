@@ -82,3 +82,9 @@ body {
   background-color: red;
   color: white;
 }
+
+/*        slideshow            */
+
+.slideshow-img {
+    height: 100vh;
+}

@@ -350,16 +350,7 @@ button:hover{
 
 /* parallax */
 .parallax  {
-    background-image: url("https://quotefancy.com/media/wallpaper/3840x2160/6361197-George-R-R-Martin-Quote-A-reader-lives-a-thousand-lives-before-he.jpg");
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax2  {
-    background-image: url("http://wallpapers4screen.com/Uploads/31-1-2016/26622/girl-the-laptop-book-patrol-open-book.jpg");
+    background-image: url("https://www-tc.pbs.org/wgbh/masterpiece/wp-content/uploads/2016/12/sherlock_S4_season_icon.jpg");
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
@@ -368,7 +359,16 @@ button:hover{
 }
 
 .parallax1 {
-    background-image: url("https://imgix.bustle.com/uploads/image/2019/6/18/4b562803-0149-4649-a4ba-c391565c83e8-amhed.jpg");
+    background-image: url("https://static.wixstatic.com/media/315781_f0012d104a01444e8d45cbef4eb47cc8~mv2_d_2048_1365_s_2.png");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://7wallpapers.net/wp-content/uploads/1_The-Fault-in-Our-Stars.jpg");
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
@@ -377,10 +377,46 @@ button:hover{
 }
 
 .parallax3 {
-    background-image: url("https://i.pinimg.com/originals/08/83/88/0883888c750d96b260d14ef32b2cde84.jpg");
+    background-image: url("https://www.itl.cat/pngfile/big/81-819481_widescreen-marvel-comic-book-background.jpg");
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax4 {
+    background-image: url("https://i1.wp.com/fantasy-hive.co.uk/wp-content/uploads/2019/12/Most-Anticipated-SFF-Books-of-2020-covers-Feature.jpg?fit=2500%2C1811&ssl=1");
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax7 {
+    background-image: url("https://static01.nyt.com/images/2019/12/06/books/06critics-list1/06critics-list1-superJumbo.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax6 {
+    background-image: url("https://parade.com/wp-content/uploads/2019/12/Best-Books-of-2019-4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.parallax5 {
+    background-image: url("https://assets.teenvogue.com/photos/57645e17dd80adbc7ec3f9d8/master/w_3750,h_2500,c_limit/classic-lit-books-00.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
 }

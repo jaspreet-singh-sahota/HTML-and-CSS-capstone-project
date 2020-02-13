@@ -1,0 +1,26 @@
+{
+  "name": "newsweek-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaspreet-singh-sahota/NewsWeek-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaspreet-singh-sahota/NewsWeek-clone/issues"
+  },
+  "homepage": "https://github.com/jaspreet-singh-sahota/NewsWeek-clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.0.0-alpha2"
+  }
+}

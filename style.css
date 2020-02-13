@@ -53,13 +53,14 @@ body {
 /*              navbar          */
 .navbar {
     display: grid;
-    grid-template-columns:  repeat(7,minmax(60px,1fr)); 
+    grid-template-columns:  repeat(7,minmax(50px,1fr)); 
     white-space: nowrap;
   width: 100%;
   background-color: rgba(23, 35, 33, 0.1);
   top: 0;
   position: fixed;
   z-index: 10;
+  height: auto;
 }
 
 .navbar a {
@@ -91,10 +92,11 @@ body {
 
 .flex-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
      background: hsla(220, 10%, 12%);
-     height: 80vh;
+     height: auto;
      font-size: 20px;
      font-weight: bolder;
      
@@ -102,32 +104,31 @@ body {
 
 /* .flip-card-container */
 .flip-card-container {
-  min-height: 60vh;
-  padding: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
-  --hue: 150;
-  --primary: hsl(var(--hue), 50%, 50%);
-  --white-1: hsl(0, 0%, 90%);
-  --white-2: hsl(0, 0%, 80%);
-  --dark: hsl(var(--hue), 25%, 10%);
-  --grey: hsl(0, 0%, 50%);
-  width: 100%;
-  height: 70vh;
-  padding: 20px;
-  perspective: 1000px;
+    min-height: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+    --hue: 150;
+    --primary: hsl(var(--hue), 50%, 50%);
+    --white-1: hsl(0, 0%, 90%);
+    --white-2: hsl(0, 0%, 80%);
+    --dark: hsl(var(--hue), 25%, 10%);
+    --grey: hsl(0, 0%, 50%);
+    width: 308px;
+    padding: 20px;
+    perspective: 1000px;
 }
 
 /* .flip-card */
 .flip-card {
-  width: inherit;
-  height: inherit;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: .6s .1s;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .6s .1s;
+    padding: 15px;
+       height: 344px;
+    width: 100%;
 }
 
 .flip-card-container:hover .flip-card,
@@ -166,21 +167,20 @@ figure {
   z-index: -1;
 }
 
-/* figure, .img-bg */
 figure, .img-bg {
     display: flex;
     justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
-    height: 70vh;
+    height: auto;
 }
 
 /* img */
 img {
-  width: 100%;
-  height: 70vh;
-  border-radius: 24px;
+width: 268px;
+    height: auto;
+    border-radius: 24px;
 }
 
 /* figcaption */
@@ -234,10 +234,9 @@ button:active {
 /*             pricing              */
 
 .columns {
-  float: left;
-  width: 33%;
-  padding: 8px;
-
+    float: left;
+    width: 416px;
+    padding: 20px;
 }
 
 .price {
@@ -291,14 +290,12 @@ button:active {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-
 }
  
 /*          footer             */
 
 footer {
-    height: 40vh;
+    height: auto;
     background-color: hsla(220, 10%, 12%);
 }
 
@@ -306,6 +303,8 @@ footer ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
 footer ul li {
@@ -379,6 +378,10 @@ footer ul li a:hover {
     font-size: 18px;
 }
 
+.footer-links {
+  padding-bottom: 30px;
+}
+
 .company {
     font-weight: bolder;
     color: #888;
@@ -389,12 +392,48 @@ footer ul li a:hover {
 
 /* media quries  */
 
-@media screen and (max-width: 500px) {
+ @media only screen and (max-width: 768px) {
+   .navbar a {
+     font-size: 14px;
+    }
+  }
+
+   @media only screen and (max-width: 642px) {
+     .navbar a {
+      font-size: 12px;
+
+    } 
+   }
+
+
+  @media screen and (max-width: 567px) {
   .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
+    font-size: 10PX;
+    padding: 8px 0;
+  }
+  .navbar {
+     justify-content: space-between;
   }
 }
 
+ @media screen and (max-width: 500px) {
+      .navbar a {
+      font-size: 9px;
+    } 
+    .navbar {
+        padding: 8px 0;
+ }
+}
+
+@media only screen and (max-device-width: 350px) {
+  .navbar a .fa{
+    visibility: collapse;
+  }
+  .navbar a {
+    text-align: left;  
+    
+  }
+  .navbar{
+    grid-template-columns:  45px 50px 50px repeat(4,45px); 
+  }
+}

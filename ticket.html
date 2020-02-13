@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta author-name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kitab shopping site</title>
     <!-- reset css-->
@@ -27,22 +27,22 @@
         <div class="navbar">
             <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Kitab</a>
             <div class="dropdown">
-                <button class="btn dropdown-toggle dropdown-button-navbar" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn dropdown-toggle dropdown-button-navbar" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-book" aria-hidden="true"></i> Top picks
                 </button>
-                <div class="dropdown-menu dropdown-menu-navbar" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu dropdown-menu-navbar">
                     <a class="dropdown-item border border-bottom-0" href="#trending">Trending</a>
                     <a class="dropdown-item border" href="#popular">Popular</a>
                     <a class="dropdown-item border border-top-0" href="#best-of-2019">Best of 2019</a>
                 </div>
             </div>
             <div class="dropdown">
-                <button class="btn dropdown-toggle dropdown-button-navbar" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn dropdown-toggle dropdown-button-navbar" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-book" aria-hidden="true"></i> Categories
                 </button>
-                <div class="dropdown-menu dropdown-menu-navbar" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-menu dropdown-menu-navbar">
                     <a class="dropdown-item border border-bottom-0" href="#action">Action</a>
                     <a class="dropdown-item border " href="#science-and-friction">Si-fi</a>
                     <a class="dropdown-item border " href="#romantic">Romantic</a>
@@ -55,7 +55,6 @@
             <a href="#"><i class="fa fa-fw fa-user"> </i>Login</a>
             <a href="#" class="notification"><i class="fa fa-shopping-cart" aria-hidden="true"></i> cart<span
                     class="badge">3</span></a>
-            </a>
         </div>
     </nav>
 
@@ -83,7 +82,9 @@
 
     <!-- flip-card with horizontal scrollbar  ||  science and friction (Si-Fi) -->
 
-    <section class="catagory-block" id="science-and-friction">science and friction (Si-Fi)</section>
+    <section class="catagory-block" id="science-and-friction">
+        <h2>science and friction (Si-Fi)</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -119,8 +120,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -162,8 +162,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -205,8 +204,51 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
+                        </i> </button>
+                </div>
+            </div>
+            <div class="img-wrapper">
+                <img src='https://i.pinimg.com/474x/56/bb/9c/56bb9c00c561e7f73267c88810ce06df.jpg' class="flip-card-img"
+                    alt='img'>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="card">
+                <div class="front">
+                    <h1 class="text-upper-case title">The Last Astronnaut</h1>
+                    <p class="discription font-weight-bolder text-uppercase">Authur:<span
+                            class="author-name text-lowercase text-capitalize font-weight-lighter">David
+                            Wellinton</span></p>
+                    <p class="discription font-weight-bolder text-uppercase">Genre:<span
+                            class="author-name text-lowercase text-capitalize font-weight-lighter">Si-Fi</span></p>
+                    <p class="discription font-weight-bolder text-uppercase">Year:<span
+                            class="author-name text-lowercase text-capitalize font-weight-lighter">2015</span></p>
+                    <p class="discription font-weight-bolder text-uppercase">Page Count:<span
+                            class="author-name text-lowercase text-capitalize font-weight-lighter">205</span></p>
+                    <div class="star-rating">
+                        <h2 class="h2 text-uppercase secondary">Star Rating</h2>
+                        <span class=" fa fa-star checked-rating"></span>
+                        <span class="fa fa-star checked-rating"></span>
+                        <span class="fa fa-star checked-rating"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p class="price">$ 89.00</p>
+
+                </div>
+                <div class="right">
+                    <h2>SUMMARY</h2>
+                    <p class="summary-discription">
+                        The Last Astronaut (2019) Two girls, Luna Rigel and Naomi Portman, become intertwined with
+                        NASA
+                        and the CIA. When they
+                        encounter an extraterrestrial lifeforms, they are on the run in order to find the last
+                        astronaut
+                        and save their planet.
+                    </p>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -243,13 +285,14 @@
                 <div class="right">
                     <h2>SUMMARY</h2>
                     <p class="summary-discription">
-                        The Last Astronaut (2019) Two girls, Luna Rigel and Naomi Portman, become intertwined with NASA
+                        The Last Astronaut (2019) Two girls, Luna Rigel and Naomi Portman, become intertwined with
+                        NASA
                         and the CIA. When they
-                        encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
+                        encounter an extraterrestrial lifeforms, they are on the run in order to find the last
+                        astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -286,56 +329,14 @@
                 <div class="right">
                     <h2>SUMMARY</h2>
                     <p class="summary-discription">
-                        The Last Astronaut (2019) Two girls, Luna Rigel and Naomi Portman, become intertwined with NASA
+                        The Last Astronaut (2019) Two girls, Luna Rigel and Naomi Portman, become intertwined with
+                        NASA
                         and the CIA. When they
-                        encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
+                        encounter an extraterrestrial lifeforms, they are on the run in order to find the last
+                        astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
-                        </i></button>
-                </div>
-            </div>
-            <div class="img-wrapper">
-                <img src='https://i.pinimg.com/474x/56/bb/9c/56bb9c00c561e7f73267c88810ce06df.jpg' class="flip-card-img"
-                    alt='img'>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="card">
-                <div class="front">
-                    <h1 class="text-upper-case title">The Last Astronnaut</h1>
-                    <p class="discription font-weight-bolder text-uppercase">Authur:<span
-                            class="author-name text-lowercase text-capitalize font-weight-lighter">David
-                            Wellinton</span></p>
-                    <p class="discription font-weight-bolder text-uppercase">Genre:<span
-                            class="author-name text-lowercase text-capitalize font-weight-lighter">Si-Fi</span></p>
-                    <p class="discription font-weight-bolder text-uppercase">Year:<span
-                            class="author-name text-lowercase text-capitalize font-weight-lighter">2015</span></p>
-                    <p class="discription font-weight-bolder text-uppercase">Page Count:<span
-                            class="author-name text-lowercase text-capitalize font-weight-lighter">205</span></p>
-                    <div class="star-rating">
-                        <h2 class="h2 text-uppercase secondary">Star Rating</h2>
-                        <span class=" fa fa-star checked-rating"></span>
-                        <span class="fa fa-star checked-rating"></span>
-                        <span class="fa fa-star checked-rating"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                    </div>
-                    <p class="price">$ 89.00</p>
-
-                </div>
-                <div class="right">
-                    <h2>SUMMARY</h2>
-                    <p class="summary-discription">
-                        The Last Astronaut (2019) Two girls, Luna Rigel and Naomi Portman, become intertwined with NASA
-                        and the CIA. When they
-                        encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
-                        and save their planet.
-                    </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -350,7 +351,9 @@
 
     <!-- Action container -->
 
-    <section class="catagory-block" id="action">Action</section>
+    <section class="catagory-block" id="action">
+        <h2>Action</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -386,8 +389,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -429,8 +431,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -472,8 +473,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -515,8 +515,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -558,8 +557,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -601,8 +599,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -617,7 +614,9 @@
 
     <!-- Drama container -->
 
-    <section class="catagory-block" id="drama">Drama</section>
+    <section class="catagory-block" id="drama">
+        <h2>Drama</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -653,8 +652,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -696,8 +694,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -739,8 +736,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -782,8 +778,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -825,8 +820,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -868,8 +862,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -883,7 +876,9 @@
     <div class="parallax2"></div>
     <!-- Romantic container -->
 
-    <section class="catagory-block" id="romantic">Romantic</section>
+    <section class="catagory-block" id="romantic">
+        <h2>Romantic</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -919,8 +914,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -962,8 +956,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1005,8 +998,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1048,8 +1040,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1091,8 +1082,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1134,8 +1124,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1149,7 +1138,9 @@
     <div class="parallax3"></div>
     <!-- Comics container -->
 
-    <section class="catagory-block" id="comics">Comics</section>
+    <section class="catagory-block" id="comics">
+        <h2>Comics</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -1185,8 +1176,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1228,8 +1218,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1271,8 +1260,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1314,8 +1302,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1357,8 +1344,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1400,8 +1386,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1415,7 +1400,9 @@
     <div class="parallax4"></div>
     <!-- Trending container -->
 
-    <section class="catagory-block" id="trending">Trending</section>
+    <section class="catagory-block" id="trending">
+        <h2>Trending</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -1451,8 +1438,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1494,8 +1480,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1537,8 +1522,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1580,8 +1564,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1623,8 +1606,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1666,8 +1648,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1682,7 +1663,9 @@
 
     <!-- Popular container -->
 
-    <section class="catagory-block" id="popular">Popular</section>
+    <section class="catagory-block" id="popular">
+        <h2>Popular</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -1718,8 +1701,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1761,8 +1743,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1804,8 +1785,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1847,8 +1827,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1890,8 +1869,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1933,8 +1911,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -1948,7 +1925,9 @@
     <div class="parallax6"></div>
     <!-- Best of 2019 container -->
 
-    <section class="catagory-block" id="best-of-2019">Best of 2019</section>
+    <section class="catagory-block" id="best-of-2019">
+        <h2>Best of 2019</h2>
+    </section>
 
 
     <section class="horizontal-scroll">
@@ -1984,8 +1963,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -2027,8 +2005,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -2070,8 +2047,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -2113,8 +2089,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -2156,8 +2131,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>
@@ -2199,8 +2173,7 @@
                         encounter an extraterrestrial lifeforms, they are on the run in order to find the last astronaut
                         and save their planet.
                     </p>
-                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart"
-                            aria-hidden="true"></i>
+                    <button class="add-to-cart-button">Add to cart <i class="fa fa-shopping-cart" aria-hidden="true">
                         </i></button>
                 </div>
             </div>

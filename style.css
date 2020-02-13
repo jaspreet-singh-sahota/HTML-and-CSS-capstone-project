@@ -102,9 +102,6 @@ footer ul li a:hover {
   background-color: #4caf50;
 }
 
-
-
-
 /* flex-box */
 
 .flex-items {
@@ -223,7 +220,7 @@ figcaption {
   background: hsla(var(--hue), 25%, 10%, 0.5);
 }
 
-button {
+.button-flip-card {
   font-family: inherit;
   font-weight: bold;
   color: var(--white-1);
@@ -235,17 +232,16 @@ button {
   transition: 0.3s;
 }
 
-button:hover,
-button:focus {
+.button-flip-card:hover,
+.button-flip-card:focus {
   color: var(--primary);
   background: rgba(255, 69, 0, 0.9);
   border-color: currentColor;
 }
 
-button:active {
+.button-flip-card:active {
   transform: translate(2px);
 }
-
 
 /*             pricing              */
 
@@ -386,7 +382,6 @@ footer ul {
   text-transform: uppercase;
   padding-right: 10px;
 }
-
 
 /* media quries  */
 

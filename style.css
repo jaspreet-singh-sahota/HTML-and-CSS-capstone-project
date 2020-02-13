@@ -127,7 +127,7 @@ body {
     transform-style: preserve-3d;
     transition: .6s .1s;
     padding: 15px;
-       height: 344px;
+       height: 400px;
     width: 100%;
 }
 
@@ -179,7 +179,7 @@ figure, .img-bg {
 /* img */
 img {
 width: 268px;
-    height: auto;
+    height: 400px;;
     border-radius: 24px;
 }
 

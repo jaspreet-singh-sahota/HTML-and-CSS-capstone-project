@@ -37,7 +37,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jaspreet-singh-sahota/HTML-and-CSS-capstone-project/feature-branch/index.html)
+https://raw.githack.com/jaspreet-singh-sahota/HTML-and-CSS-capstone-project/feature-branch/index.html
 
 
 ## Getting Started

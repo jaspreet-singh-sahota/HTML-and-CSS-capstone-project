@@ -1,0 +1,530 @@
+/* :default */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*              navbar          */
+
+.navbar {
+    display: grid;
+    grid-template-columns:  repeat(7,minmax(60px,1fr)); 
+    white-space: nowrap;
+  width: 100%;
+  background-color: rgba(23, 35, 33, 0.1);
+  top: 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center; 
+}
+
+.navbar:hover {
+    background-color: #555;
+}
+
+.navbar a:hover {
+  background-color: #000;
+  color: orangered;
+}
+
+.navbar a.active:hover {
+  background-color: #4CAF50;
+}
+
+/* dropdown button navbar */
+
+.dropdown-button-navbar{
+    border-radius: 0;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+}
+
+.dropdown-button-navbar:hover {
+    background-color: #000;
+  color: orangered;
+}
+
+.dropdown-menu-navbar {
+    background-color: hsl(220, 10%, 40%);
+    width: 100%;
+}
+
+/* In cart notification */
+
+.notification {
+  color: white;
+  position: relative;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: 5px;
+  right: 45px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+/* horizontal scrollbar */
+
+.horizontal-scroll {
+    background: hsla(220, 10%, 12%);
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 30px 10px;
+}
+
+.slideshow-img {
+    width: 100%;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  border: 1px solid #d5d5d5;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: hsla(220, 10%, 12%);
+}
+
+::-webkit-scrollbar-track:hover {
+    scale: 1.5;
+    color: #999
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+
+}::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #b0b0b0;
+}
+
+/*  flip-card  */
+
+.card {
+    width: 303px;
+    padding-left: -24px;
+    border-top-left-radius: 34px;
+    border: transparent;
+    height: 450px;
+    transform-style: preserve-3d;
+    transform: translateZ(-140px);
+    transition: transform 350ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    cursor: pointer;
+    width: 414px;
+    border-radius: .25rem;
+    background-color: transparent;
+}
+
+.card > div {
+    position: absolute;
+    width: 414px;
+    height: 450px;
+    padding: 34px 21px;
+    transition: all 350ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+}
+
+.card:hover ~ .img-wrapper img{
+  transform: scale(0.5) translateX(0%) translateY(0%) rotateZ(0deg);
+}
+
+.item {
+    display: inline-block;
+    overflow: hidden;
+    border: transparent;
+    color: #f5f5f5;
+    font-family: 'Exo 2';
+    font-weight: 300;
+    animation: fadeIn .5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1;
+    width: 414px;
+    perspective: 600px;
+    text-align: center;
+    font-size: 20px;
+        margin: 0 10px;
+}
+
+.card:hover{
+    transform: translateZ(-160px) rotateY( -90deg);
+}
+
+/*  card front  */
+
+.front {
+    background-image: linear-gradient(180deg, rgba(145,141,144,1) 0%, rgba(92,91,94,0) 100%);
+    transform: rotateY(0deg) translateZ(180px);
+    border-radius: 34px 3px 0 0;
+}
+
+.card:hover .front{
+    opacity: 0; 
+}
+
+title {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: -.25px;
+    font-family: 'Sarala';
+    font-weight: 700;
+}
+
+.author-name {
+  margin-left: 5px;
+  color: white;
+}
+
+.star-rating{
+  text-align: left;
+  margin-top: 5px;
+  font-size: 21px;
+}
+
+.discription{
+  margin: 0;
+  text-align: left;
+  font-size: 19px;
+  font-weight: bolder;
+  color: black;
+}
+
+.h2 {
+    font-size: 19px;
+    margin-bottom: 0;
+    color:black;
+}
+
+
+.fa-star {
+    font-size: 19px;
+}
+
+.checked-rating {
+    color:orange;
+}
+
+.price{
+  position: absolute;
+  bottom: 34px;
+  left: 21px;
+  font-size: 34px;
+  color: white;
+}
+
+.flip-card-img {
+    transform-origin: top right;
+    transition: transform 300ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    transition-delay: 100ms;
+    pointer-events: none;
+    width: 200px;
+}
+
+.img-wrapper {
+    animation: float 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    pointer-events: none;
+    backface-visibility: hidden;
+}
+
+ /*  card right  */
+
+.right {
+    background-image: linear-gradient(0deg, rgba(145,141,144,1) 0%, rgba(92,91,94,0) 100%);
+    opacity: 0.08;
+    transform: rotateY(90deg) translateZ(160px);
+    border-radius: 0 0 3px 34px;
+}
+
+.card:hover .right{
+  opacity: 1; 
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+ outline: 1px solid transparent;
+}
+
+.summary-discription {
+        width: 253px;
+    white-space: pre-line;
+    font-size: 14px;
+}
+
+
+.add-to-cart-button {
+    position: absolute;
+    right: 121px;
+    bottom: 34px;
+    border: none;
+    box-shadow: none;
+    background: none;
+    color: inherit;
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: -.25px;
+    font-weight: 700;
+    padding: 13px 34px;
+    border-radius: 55px 55px 21px 55px;
+    background-image: linear-gradient(130deg, rgba(117,51,165,1) 50%, rgba(51,46,57,.89) 100%);
+    background-size: 125% 100%;
+    background-position: right;
+    box-shadow: 8px 5px 13px rgba(34,34,34,.08);
+    transform: scale(0) skewY(13deg);
+    transition: all 150ms cubic-bezier(0.390, 0.575, 0.565, 1.000);
+    transform-origin: right bottom;
+}
+
+.card:hover button{
+   transform: scale(1) skewY(0);
+}
+
+.card:not(:hover) button{
+opacity: 0;
+}
+
+button:hover{
+  background-position: left;
+}
+
+ /* keyframes for flip card  */
+
+@keyframes float{
+  0%{
+    transform: translateZ(20px);
+  }
+  100%{
+    transform: translateY(-21px) translateX(-13px) translateZ(30px);
+  }
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0.33;
+    transform: scale(.89);
+  }
+}
+
+/* catagory block or book catagory title  */
+
+.catagory-block {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: hsla(220, 10%, 12%);
+    padding: 5px 0;
+    color: orange;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px){
+  body{
+    transform: scale(.67);
+  }
+}
+
+/* parallax-background-images */
+.parallax  {
+    background-image: url("https://www-tc.pbs.org/wgbh/masterpiece/wp-content/uploads/2016/12/sherlock_S4_season_icon.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url("https://static.wixstatic.com/media/315781_f0012d104a01444e8d45cbef4eb47cc8~mv2_d_2048_1365_s_2.png");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://7wallpapers.net/wp-content/uploads/1_The-Fault-in-Our-Stars.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url("https://www.itl.cat/pngfile/big/81-819481_widescreen-marvel-comic-book-background.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    background-image: url("https://i1.wp.com/fantasy-hive.co.uk/wp-content/uploads/2019/12/Most-Anticipated-SFF-Books-of-2020-covers-Feature.jpg?fit=2500%2C1811&ssl=1");
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    background-image: url("https://assets.teenvogue.com/photos/57645e17dd80adbc7ec3f9d8/master/w_3750,h_2500,c_limit/classic-lit-books-00.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.parallax6 {
+    background-image: url("https://parade.com/wp-content/uploads/2019/12/Best-Books-of-2019-4.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.parallax7 {
+    background-image: url("https://static01.nyt.com/images/2019/12/06/books/06critics-list1/06critics-list1-superJumbo.jpg");
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*          footer             */
+
+footer {
+    height: 40vh;
+    background-color: hsla(220, 10%, 12%);
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+footer ul li a:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.social-link {
+  padding: 20px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 5px;
+}
+
+.social-link:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.footer-links a {
+    color: wheat;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.company {
+    font-weight: bolder;
+    color: #888;
+    text-transform: uppercase;
+    padding-right:10px;
+}
+
+
+/* media quries */
+
+
+@media only screen and (max-device-width: 1150px) {
+  .notification .badge {
+    right: 25px;
+  }
+}
+
+ @media screen and (max-width: 1100px) {
+  .slideshow-img {
+    widows: 1100px;
+  }
+}

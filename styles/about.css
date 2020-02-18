@@ -93,7 +93,7 @@ body {
 /*          footer             */
 
 footer {
-  height: 28vh;
+  height: auto;
   background-color: #272A31;
 }
 

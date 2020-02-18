@@ -422,7 +422,7 @@ button:hover {
 /*          footer             */
 
 footer {
-  height: 40vh;
+  height: auto;
   background-color: #272A31;
 }
 

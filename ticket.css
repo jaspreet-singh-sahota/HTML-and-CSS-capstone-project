@@ -1,12 +1,12 @@
 /* :default */
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*              navbar          */
@@ -345,11 +345,6 @@ button:hover {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    transform: scale(0.67);
-  }
-}
 
 /* parallax-background-images */
 .parallax {
@@ -515,5 +510,99 @@ footer ul li {
 @media screen and (max-width: 1100px) {
   .slideshow-img {
     widows: 1100px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .notification .badge {
+    right: 15px;
+  }
+  .navbar a {
+    font-size: 14px;
+  }
+  .dropdown button {
+    font-size: 14px;
+  } 
+}
+
+@media screen and (max-width: 776px) {
+  .navbar a {
+    font-size: 12px;
+  }
+  .dropdown button {
+    font-size: 12px;
+  } 
+}
+
+@media screen and (max-width: 660px) {
+  .notification .badge {
+    right: 10px;
+  }
+  .navbar a {
+    font-size: 10px;
+  }
+  .dropdown button {
+    font-size: 10px;
+  }
+  .navbar .fa {
+    visibility: collapse;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .navbar {
+    grid-template-columns: repeat(7,1fr);
+    padding-left: 0;
+  }
+  .navbar .fa {
+    display: none;
+  }
+  .navbar a {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .notification .badge {
+    right: -5px;
+  }
+  .card > div {
+    height: 366px;
+  }
+  .h1, h1 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .discription {
+    font-size: 13px;
+  }
+  .summary-discription {
+    width: 177px;
+    font-size: 11.5px;
+  }
+  .img-wrapper {
+    bottom: 135px;
+    right: 30px;
+  }
+  .flip-card-img {
+    width: 139px;
+  }
+  .right h2 {
+    text-align: left;
+  }
+  .right button {
+    text-align: left;
+  }
+  .horizontal-scroll{
+    height: 435px;
+  }
+  .item {
+    width: 330px;
+  }
+
+}
+
+@media screen and (max-width: 321px) {
+  .navbar button {
+    padding-left: 3px;
+    padding-right: 3px;
   }
 }

@@ -6,7 +6,19 @@
 
 - The main page, with a menu link to the about page and tickets page.
 - The about page.
-- The about. 
+- The ticket page.
+
+## Details
+
+- `display: grid` is used to create the `navbars` in-home and ticket 
+- `display: flex` is been used in the `footer` of home, ticket & about page.
+- In the home page, `2d flip-cards` section is created with the `bootstrap` and `flexbox`.
+- In the home page, if you click on the `2d flip-cards` it will guide you towards the ticket page.
+- In the ticket page, `3d flip cards` with float amination on the images are used and all the flip cards are added in the `horizontal-scrollbar` section.
+- At the bottom of home and ticket page there is `about us` link, if we click on this link it will take us to the about page.
+- In the about page, we will see the information about the company and the product and can see our team section which is created with the help of `flexbox`.
+- In the about page, inside the header there is `Kitab.com` (company's name), this link will take us back to our home page.
+
 
 ### The main page (In different screen sizes)
 
@@ -39,13 +51,14 @@
 
 https://raw.githack.com/jaspreet-singh-sahota/HTML-and-CSS-capstone-project/feature-branch/index.html
 
+## Video link
+
+https://www.loom.com/share/7952c34f87484bab8322a80d3b61deb0
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 
 To get a local copy up and running follow these simple example steps.
 

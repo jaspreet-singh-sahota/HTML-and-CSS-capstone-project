@@ -567,7 +567,7 @@ footer ul li {
   .card > div {
     height: 366px;
   }
-  .h1, h1 {
+  .h1, h2 {
     font-size: 1.5rem;
     text-align: left;
   }
@@ -592,12 +592,24 @@ footer ul li {
     text-align: left;
   }
   .horizontal-scroll{
-    height: 435px;
+    height: 400px;
+    padding-top: 0;
   }
   .item {
     width: 330px;
   }
+  .catagory-block {
+    margin: 0;
+  }
+  .catagory-block h2 {
+    text-align: center;
+  }
+}
 
+@media screen and (max-width: 391px){
+  .catagory-block h2 {
+  font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 321px) {
@@ -606,3 +618,4 @@ footer ul li {
     padding-right: 3px;
   }
 }
+

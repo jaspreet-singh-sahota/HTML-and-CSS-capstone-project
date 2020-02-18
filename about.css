@@ -15,7 +15,7 @@ body {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: hsla(220, 10%, 12%);
+  background-color: #272A31;
   color: white;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .company-link:hover {
-  color: orangered;
+  color: #ec5242;
   text-decoration: none;
   scale: 1.1;
 }
@@ -94,7 +94,7 @@ body {
 
 footer {
   height: 28vh;
-  background-color: hsla(220, 10%, 12%);
+  background-color: #272A31;
 }
 
 footer ul {
@@ -112,7 +112,7 @@ footer ul li {
 
 footer ul li a:hover {
   text-decoration: none;
-  color: orangered;
+  color: #ec5242;
 }
 
 .social-link {

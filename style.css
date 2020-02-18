@@ -73,7 +73,7 @@ body {
 }
 
 .navbar:hover {
-  background-color: #555;
+  background-color:  #272A31;
 }
 
 .footer-links a {
@@ -90,12 +90,12 @@ footer ul li {
 
 footer ul li a:hover {
   text-decoration: none;
-  color: orangered;
+  color: #ec5242;
 }
 
 .navbar a:hover {
   background-color: #000;
-  color: orangered;
+  color: #ec5242;
 }
 
 .navbar a.active:hover {
@@ -109,7 +109,7 @@ footer ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: hsla(220, 10%, 12%);
+  background:  #272A31;
   height: auto;
   font-size: 20px;
   font-weight: bolder;
@@ -293,8 +293,8 @@ figcaption {
 
 .button:hover {
   text-decoration: none;
-  color: orangered;
-  border: 1px solid orangered;
+  color: #ec5242;
+  border: 1px solid #ec5242;
 }
 
 #pricing {
@@ -308,7 +308,7 @@ figcaption {
 
 footer {
   height: auto;
-  background-color: hsla(220, 10%, 12%);
+  background-color:  #272A31;
 }
 
 footer ul {

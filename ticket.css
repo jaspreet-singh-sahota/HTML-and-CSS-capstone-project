@@ -32,7 +32,7 @@ html {
 }
 
 .navbar:hover {
-  background-color: #555;
+  background-color:  #272A31;
 }
 
 .footer-links a {
@@ -44,12 +44,12 @@ html {
 
 footer ul li a:hover {
   text-decoration: none;
-  color: orangered;
+  color: #ec5242;
 }
 
 .navbar a:hover {
   background-color: #000;
-  color: orangered;
+  color: #ec5242;
 }
 
 .navbar a.active:hover {
@@ -67,11 +67,11 @@ footer ul li a:hover {
 
 .dropdown-button-navbar:hover {
   background-color: #000;
-  color: orangered;
+  color: #ec5242;
 }
 
 .dropdown-menu-navbar {
-  background-color: hsl(220, 10%, 40%);
+  background-color: #ec5242;
   width: 100%;
 }
 
@@ -98,7 +98,7 @@ footer ul li a:hover {
 /* horizontal scrollbar */
 
 .horizontal-scroll {
-  background: hsla(220, 10%, 12%);
+  background:  #272A31;
   overflow: hidden;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -119,7 +119,7 @@ footer ul li a:hover {
 
 ::-webkit-scrollbar-track {
   border-radius: 0;
-  background: hsla(220, 10%, 12%);
+  background:  #272A31;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -339,7 +339,7 @@ button:hover {
 .catagory-block {
   text-align: center;
   text-transform: uppercase;
-  background-color: hsla(220, 10%, 12%);
+  background-color: #272A31;
   padding: 5px 0;
   color: orange;
   font-size: 30px;
@@ -423,7 +423,7 @@ button:hover {
 
 footer {
   height: 40vh;
-  background-color: hsla(220, 10%, 12%);
+  background-color: #272A31;
 }
 
 footer ul {

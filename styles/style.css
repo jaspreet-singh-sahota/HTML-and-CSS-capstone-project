@@ -73,7 +73,7 @@ body {
 }
 
 .navbar:hover {
-  background-color:  #272A31;
+  background-color: #272a31;
 }
 
 .footer-links a {
@@ -109,7 +109,7 @@ footer ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background:  #272A31;
+  background: #272a31;
   height: auto;
   font-size: 20px;
   font-weight: bolder;
@@ -308,7 +308,7 @@ figcaption {
 
 footer {
   height: auto;
-  background-color:  #272A31;
+  background-color: #272a31;
 }
 
 footer ul {

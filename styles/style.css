@@ -29,7 +29,7 @@ body {
   grid-template-columns: repeat(8, minmax(40px, 1fr));
   white-space: nowrap;
   width: 100%;
-  background-color: #272a31;;
+  background-color: #272a31;
   top: 0;
   position: fixed;
   z-index: 10;
@@ -44,7 +44,7 @@ body {
 .header-text {
   background-color: #d3d3d3;
   color: black;
-  font-size: 7vw; 
+  font-size: 7vw;
   margin: 0 auto;
   padding: 15px;
   width: 100%;
@@ -57,7 +57,7 @@ body {
 }
 
 .header-text h1 {
-  font-size: 7vw; 
+  font-size: 7vw;
   margin: 0 auto;
   padding: 15px;
   font-weight: bolder;
@@ -98,8 +98,8 @@ footer ul li a:hover {
   background-color: #4caf50;
 }
 
-  /* catagories section  */
-  
+/* catagories section  */
+
 .catagorie {
   display: flex;
   justify-content: center;
@@ -132,12 +132,14 @@ footer ul li a:hover {
   justify-content: center;
   align-items: center;
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+
   --hue: 150;
   --primary: hsl(var(--hue), 50%, 50%);
   --white-1: hsl(0, 0%, 90%);
   --white-2: hsl(0, 0%, 80%);
   --dark: hsl(var(--hue), 25%, 10%);
   --grey: hsl(0, 0%, 50%);
+
   width: 308px;
   padding: 20px;
   perspective: 1000px;
@@ -250,34 +252,34 @@ figcaption {
   transform: translate(2px);
 }
 
- /* authors container  */
+/* authors container  */
 
-main  {
-    padding: 100px;
-    margin-top: 20px;
-    text-align: center;
+main {
+  padding: 100px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .authors-container-flex {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .authors-container {
-    width: 50%;
-    padding: 3rem 5rem;
+  width: 50%;
+  padding: 3rem 5rem;
 }
 
 .authors-container-img {
   height: 234px;
   border: 2px solid #ec5242;
-   box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px grey;
   margin-bottom: 15px;
 }
 
 .authors-container-img:hover {
-  transform: scale(1.1) ;
+  transform: scale(1.1);
 }
 
 .logo-text {
@@ -286,11 +288,6 @@ main  {
 
 
 /*             pricing              */
-
-#pricing {
-  padding-bottom: 100px;
-  background-color: #d3d3d3;
-}
 
 .columns {
   float: left;
@@ -355,6 +352,8 @@ main  {
 }
 
 #pricing {
+  padding-bottom: 100px;
+  background-color: #d3d3d3;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -446,10 +445,12 @@ footer ul {
   .navbar a {
     font-size: 14px;
   }
+
   .authors-container {
     width: 100%;
     padding: 2rem 0;
   }
+
   main {
     padding: 50px;
   }
@@ -480,22 +481,25 @@ footer ul {
   .navbar {
     padding: 8px 0;
   }
+
   .your-plan h1 {
     font-size: 26px;
   }
 }
 
-
 @media only screen and (max-device-width: 400px) {
   main {
     padding: 15px;
   }
+
   .authors-container-img {
     width: 220px;
   }
+
   .navbar {
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
+
   .catagories {
     grid-column: 2/3;
   }

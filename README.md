@@ -1,6 +1,6 @@
 # HTML & CSS Capstone Project
 
-> This Project is based on an online website for a conference, it's a real-world-like project, built with business specifications.
+Kitaab App is built with HTML and CSS where user can navigate into different book categories. The objective of this project is to practice the concepts of grid, flex-box and responsiveness.
 
 ## The content for the shop requires to build these 3 pages as the minimum requirements:
 
@@ -19,6 +19,9 @@
 - In the about page, we will see the information about the company and the product and can see our team section which is created with the help of `flexbox`.
 - In the about page, inside the header there is `Kitab.com` (company's name), this link will take us back to our home page.
 
+## Live Demo
+
+https://raw.githack.com/jaspreet-singh-sahota/HTML-and-CSS-capstone-project/feature-branch/index.html
 
 ### The main page (In different screen sizes)
 
@@ -44,16 +47,6 @@
 - HTML5
 - CSS3
 - Bootstrap 4
-- Node
-
-
-## Live Demo
-
-https://raw.githack.com/jaspreet-singh-sahota/HTML-and-CSS-capstone-project/feature-branch/index.html
-
-## Video link
-
-https://www.loom.com/share/e37336e9f28c4dd4801227a363521782
 
 ## Getting Started
 
@@ -61,13 +54,6 @@ https://www.loom.com/share/e37336e9f28c4dd4801227a363521782
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-- Node.js (for Stylelint)
-- IDE
-- CLI
-- Web Browser
 
 ### Install
 
